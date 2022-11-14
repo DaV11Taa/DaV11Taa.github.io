@@ -1,0 +1,65 @@
+*{
+    scroll-behavior: smooth; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+.main{
+    background-color: rgb(238, 238, 238);
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+header{
+    margin: 0;
+    border: 0;
+}
+header h1{
+    font-size: 40px;
+    padding-top: 50px;
+}
+main div[id="img-div"] p{
+    margin-top: none;
+    padding: 16px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+main div[id="img-div"]{
+    background-color: #fff;
+    width: 100%;
+    margin: 0 auto;
+}
+#image{
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.bolder{
+    color: #333;
+    font-weight: bold;
+}
+.subtitle{
+    text-align: center;
+    padding: 25px 0;
+    font-size: 19px;
+}
+main div[id="tribute-info"]{
+    width: 40%;
+    text-align: left;
+    margin: 0 auto;
+}
+main div[id="tribute-info"] li{
+    padding: 10px 0;
+}
+main div[id="tribute-info"] p{
+    font-size: 16px;
+    font-style: italic;
+}
+.moreinfo{
+    width: 100%;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 10px 0;
+}

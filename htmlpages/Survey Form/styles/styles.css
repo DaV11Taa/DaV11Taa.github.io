@@ -1,0 +1,84 @@
+body{
+    background-image: linear-gradient( 180deg, rgba(255, 10, 231, 0.5), rgba(48, 48, 217, 0.5) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    width: 100%;
+    height: 180vh;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    margin-top: 0;
+    margin-bottom: 2em;
+    text-align: center;
+}
+.title{
+    font-weight: 800;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+.description{
+    font-style: italic;
+    font-size: x-large;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+form{
+    background: linear-gradient(180deg, rgba(48, 48, 217, 0.70), rgba(255, 10, 231, 0.70));
+    width: 60%;
+    max-width: 500px;
+    min-width: 200px;
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px black;
+}
+label, input, select{
+    display: block;
+    width: 98%;
+    padding: 0;
+    min-height: 2em;
+    border-radius: 1em;
+}
+select{
+    margin: 5px 0;
+    width: 100%;
+}
+label{
+    margin: 10px 0 0 0;
+    font-weight: bold;
+}
+input{
+    margin: 5px 0;
+    padding: 0 1%;
+    border: 10px;
+}
+.inline{
+    display: inline;
+    width: unset;
+    margin-right: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+textarea{
+    margin-top: 1em;
+    width: 100%;
+    min-height: 90px;
+    resize: vertical;
+    font-family: "Poppins", sans-serif
+}
+fieldset{
+    border: 0;
+    margin: 1em 0;
+    border-bottom: 4px solid rgba(255, 10, 231, 0.65);
+    border-width: 100%;
+    
+}
+fieldset:last-of-type{
+    border: 0;
+}
+.button{
+    background-color: #00ff00;
+    font-weight: bolder;
+    font-size: medium;
+    color: #ffffff
+}
+.moveleft{
+    margin-left: 2%;
+}
